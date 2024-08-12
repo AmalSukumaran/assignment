@@ -1,0 +1,98 @@
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .browser {
+            width: 80%;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .title-bar {
+            background-color: #f1f1f1;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+        .title-bar .controls {
+            display: flex;
+            gap: 5px;
+        }
+        .title-bar .control {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #e74c3c;
+        }
+        .title-bar .control:nth-child(2) {
+            background-color: #f39c12;
+        }
+        .title-bar .control:nth-child(3) {
+            background-color: #2ecc71;
+        }
+        .address-bar {
+            background-color: #ffffff;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+        }
+        .address-bar input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .webpage {
+            padding: 20px;
+            height: 300px;
+            overflow: auto;
+            background-color: #fafafa;
+            font-size: auto;
+        }
+   
+        .nav {
+            background-color: #f8f9fa; 
+            border-bottom: 2px solid #ddd;    
+        }
+        
+        .image {
+                 img{ 
+                     height: 5%;
+                     width: 5%;
+                     display: block;       /* Make the image a block-level element */
+                     margin-left: auto;    /* Auto-adjust the left margin */
+                     margin-right: auto;   
+                 }  
+                    
+           
+    
+        }
+        .webpage{
+            h1{
+                font-size: 80px;
+                font-display: block;
+                text-align: center;
+            }
+        }
+
+        
+.navbar {
+    display: flex;
+    justify-content: center;  
+    background-color: white;   
+}
+
+.navbar a {
+    padding: 100px 100px;
+    text-decoration: none;
+    color: black;
+}
+.jt{
+    margin-top: 20px
+}
